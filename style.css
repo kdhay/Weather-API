@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#map {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#weather-display {
+    height: 100%;
+    width: 50%;
+    float: right;
+    background-position: center;
+    background: url('icons/default_weather.jpeg') no-repeat center center;
+    background-size: cover;
+
+}
+
+#weather-info {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Adds shadow around the box */
+}
+
+#locate-me {
+    position: absolute;
+    top: 10px;
+    left: 55%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+#locate-me:hover {
+    background-color: #0056b3;
+}
