@@ -220,6 +220,9 @@ function playMusic(weatherCondition) {
         case 'shower rain':
             song = 'music/light_rain.mp3'; // Gentle, relaxing rain sounds
             break;
+        case 'light rain':
+            song = 'music/heavy_rain.mp3'; // Intense, heavier rain sounds
+            break;
         case 'rain':
             song = 'music/heavy_rain.mp3'; // Intense, heavier rain sounds
             break;
