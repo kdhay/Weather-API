@@ -209,7 +209,7 @@ function playMusic(weatherCondition) {
             song = 'music/light_clouds.mp3'; // Light, airy music for slight cloudiness
             break;
         case 'scattered clouds':
-            song = 'music/partly_cloudy.mp3'; // A bit more dynamic, reflecting changeable weather
+            song = 'music/light_clouds.mp3'; // A bit more dynamic, reflecting changeable weather
             break;
             case 'overcast clouds':
                 song = 'music/overcast.mp3'; // More overcast, a heavier tone
